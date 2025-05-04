@@ -6,5 +6,5 @@ import salahdev.demotest.model.Produit;
 import java.util.List;
 
 public interface ProduitRepository extends JpaRepository<Produit, Long> {
-    List<Produit> id(Long id);
+
 }
